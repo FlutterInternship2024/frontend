@@ -5,6 +5,7 @@ import 'package:iconsax/iconsax.dart';
 import 'package:ionicons/ionicons.dart';
 
 import '../../widgets/shimmer.dart';
+import '../account/accountMainScreen.dart';
 
 class HomeScreen extends StatefulWidget {
   static const routeName = '/home';
@@ -34,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
     });
   }
 
-  List pages = [HomeBody(), Text('dsd'), HomeBody(), Text('dsd')];
+  List pages = [HomeBody(), Text('dsd'), HomeBody(), MyAccountPage()];
 
   @override
   Widget build(BuildContext context) {

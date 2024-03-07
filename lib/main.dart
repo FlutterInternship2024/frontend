@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutterinternship2024/screens/welcomeScreen/welcomeMainScreen.dart';
 
 import 'routes.dart';
-import 'screens/home/homeMainScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         appBarTheme: AppBarTheme().copyWith(backgroundColor: Colors.green),
         useMaterial3: true,
       ),
-      home: HomeScreen(),
+      home: WelcomeScreen(),
     );
   }
 }

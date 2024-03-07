@@ -73,9 +73,9 @@ class _BuildCarouselSliderState extends State<BuildCarouselSlider> {
             dotsCount: carouselImages.length,
             position: _currentIndex,
             decorator: DotsDecorator(
-              activeColor: Colors.green,
-              // Àctive dot colors
-            ),
+                activeColor: Colors.green, activeSize: Size(15, 15)
+                // Àctive dot colors
+                ),
           )
         ],
       ),
