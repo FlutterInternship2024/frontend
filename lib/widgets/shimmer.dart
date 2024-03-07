@@ -10,15 +10,12 @@ class ShimmerScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(),
-      body: SafeArea(
-        child: ListView.builder(
-            itemCount: 6,
-            itemBuilder: (context, index) {
-              return BuildShimmer();
-            }),
-      ),
+    return SafeArea(
+      child: ListView.builder(
+          itemCount: 6,
+          itemBuilder: (context, index) {
+            return BuildShimmer();
+          }),
     );
   }
 }

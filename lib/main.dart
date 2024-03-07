@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'routes.dart';
-import 'screens/home/home.dart';
+import 'screens/home/homeMainScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,6 @@ class MyApp extends StatelessWidget {
       onGenerateRoute: (settings) => getRoutes(settings),
       theme: ThemeData(
         appBarTheme: AppBarTheme().copyWith(backgroundColor: Colors.green),
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
       home: HomeScreen(),

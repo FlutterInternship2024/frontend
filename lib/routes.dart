@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'screens/home/home.dart';
+import 'screens/home/homeMainScreen.dart';
 
 Route getRoutes(RouteSettings routeSettings) {
   switch (routeSettings.name) {
